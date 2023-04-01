@@ -1,0 +1,84 @@
+body{
+  background-color: rgb(35, 173, 122);
+
+}
+
+
+header {
+   background-color: antiquewhite;
+   margin-top: 100px;
+  }
+
+  .logo h1 {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+   color: #000;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   margin-left: 500px;
+   border: 1px solid;
+   border-color: #000;
+   border-radius: 0 10px;
+   background-color: #b21c67;
+   display: inline;
+   line-height: 2;
+   
+   }
+
+   .navbar {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-weight: bold;
+  }
+
+  .navbar ul {
+   display: flex;
+   list-style: none;
+   align-items: center;
+   justify-content: end;
+   }
+
+   .navbar li {
+    position: relative;
+    }
+
+    
+   .navbar a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 1rem;
+    white-space: nowrap;
+    transition: 0,3s;
+    margin-right: 25px;
+    margin-top: -70px;
+    }
+
+    /* .navbar a { */
+        /* display: flex; */
+        /* align-items: center; */
+        /* justify-content: space-between; */
+        /* padding: 10px 0 10px 30px; */
+        /* font-size: 14px; */
+        /* white-space: nowrap; */
+        /* transition: 0.3s; */
+      /* } */
+
+/* .navbar a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 14px;
+  white-space: nowrap;
+  transition: 0.3s;
+} */
+
+
+  #header {
+    color: aqua;
+    z-index: 997;
+    transition: all 0.5s;
+    padding: 16px 0;
+    background: #b21c67;
+  }
